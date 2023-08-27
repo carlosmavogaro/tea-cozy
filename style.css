@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 100%; */
+    vertical-align: baseline;
+    background: transparent;
+    color: seashell;
+    /* opacity: 0.9; */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+h2, h3, h4, h5 {
+    line-height: 47px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    line-height: 76px;
+    font-size: 19px;
+} 
+
+header {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    padding: 0 10px;
+    background-color: black;
+    z-index: 1;
+}
+
+.header-logo {
+    height: 50px;
+}
+
+header ul {
+    cursor: default;
+}
+
+header li {
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header li:hover {
+    color: gray;
+}
+
+header li:active {
+    text-decoration: none;
+    color: rgb(62, 61, 61);
+}
+
+main {
+    position: relative;
+    top: 69px;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mission div {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    padding: 3px;
+}
+
+.mission img {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.featured-tea {
+    width: 1000px;
+    margin: 80px auto;
+}
+
+.tea-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.tea-gallery div {
+    margin: 5px 16px;
+}
+
+.tea-gallery img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.locations img {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    object-position: top;
+    object-fit: cover;
+}
+
+
+.locations-content {
+    position: absolute;
+}
+
+.locations-content h2{
+    padding-bottom: 15px;
+}
+
+.location-container {
+    display: flex;
+}
+
+.location-box {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.location-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.contact {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 26px;
+}
+
+footer aside h5 {
+    text-align: left;
+    padding-left: 20px;
+}
